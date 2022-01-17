@@ -1,0 +1,121 @@
+/*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    //background-image: url(pexels-matej-1074882_v5.jpg);
+    //background-size: auto 100%;
+}*/
+
+.h1{
+    margin: 0px 0px 0px 100px;;
+}
+
+.h2{
+    align-self: center;
+}
+
+.h3 {
+    align-self: flex-end;
+    /*color: white;*/
+}
+
+
+.FaceBook{
+    grid-area: FaceBook;
+}
+ 
+.SnapChat{
+    grid-area: SnapChat;
+}
+
+.Twitter{
+    grid-area: Twitter;
+}
+
+.Instagram{
+    grid-area: Instagram;
+}
+
+.Linkedin{
+    grid-area: Linkedin;
+}
+
+.wolf{
+    grid-area: wolf;
+    /*z-index: 1;*/
+}
+
+.Login{
+    grid-area: Login;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    /*z-index: 1;*/    
+    /*background-color: black;*/
+}
+
+.box2{
+    display: inline-block;
+}
+
+/*.form{
+    display: inline-block;
+    /*vertical-align: middle;
+}*/
+
+.icon{
+    vertical-align: middle;
+}
+
+.profiles{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    grid-template-rows: 0.5fr;
+    gap: 0% 0%;
+    grid-template-areas: "Facebook SnapChat Twitter Instagram Linkedin";
+    justify-items: center;
+}
+
+/*.FaceBook + .SnapChat + .Twitter + .Instagram + .Linkedin{
+    justify-content: space-evenly;
+}*/
+
+/*
+main{
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+*/
+
+.color-overlay{
+    width: 100%;
+    height: 100%;
+    opacity: .8;
+    position: absolute;
+}
+
+.grid-container{
+    display: grid;
+    z-index: 1;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    /*grid: auto-flow / repeat(1, 8fr);*/
+    grid-template-areas: "Login wolf"
+                         "Login wolf"
+                         "Login wolf";
+        /*"FaceBook" "Instagram" "Linkedin" "Twitter" "SnapChat";
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: .7;
+    position: absolute;*/
+
+}
+

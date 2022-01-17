@@ -1,0 +1,11 @@
+{
+    "name": "project_website",
+    "version": "1.0.0",
+    "description": "Project Description mywebsite fdsafsfs",
+    "scripts": {
+      "start": "serve"
+    },
+    "dependencies": {
+      "serve": "^10.0.1"
+    }
+  }
